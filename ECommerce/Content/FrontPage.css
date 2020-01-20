@@ -1,0 +1,9 @@
+﻿body {
+    margin: auto;
+    font: normal 15pt Arial;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+div#top {
+    margin-left: 50%;
+}
