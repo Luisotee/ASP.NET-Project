@@ -13,6 +13,26 @@ namespace ECommerce.Controllers
             return View();
         }
 
+        public ActionResult BuyPageNote()
+        {
+            return View();
+        }
+
+        public ActionResult BuyPageCell()
+        {
+            return View();
+        }
+
+        public ActionResult Login()
+        {
+            return View();
+        }
+
+        public ActionResult RegisterPage()
+        {
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";

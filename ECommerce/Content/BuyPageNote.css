@@ -1,0 +1,54 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+#Tittle {
+    display: inline-block;
+    text-align: left;
+}
+
+#Center {
+    display: inline-block;
+    width: 300px;
+}
+
+#Right {
+    display: inline-block;
+    margin-left: 30%;
+    margin-bottom: 10%;
+    vertical-align: middle;
+}
+
+#BuyButton {
+    border: 1px solid;
+    box-shadow: none;
+    display: inline-block;
+    background-color: limegreen;
+    color: white;
+    text-align: center;
+    margin-left: 30%;
+    font-size: 20pt;
+    width: 100px;
+}
