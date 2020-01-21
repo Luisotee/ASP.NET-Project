@@ -1,5 +1,9 @@
 ﻿@{
     ViewBag.Title = "Home Page";
+    if (Session["userID"] == null)
+    {
+        Response.Redirect("~/Login/LoginPage");
+    }
 }
 
 
@@ -12,6 +16,9 @@
         <div id="Search">
             <input class="input" placeholder="Search Here" />
             <button class="search-btn">Search</button>
+        </div>
+        <div id="UserLogin">
+            @*<h3>User Email: @Session["Email"].ToString()</h3>*@
         </div>
     </div>
 </header>

@@ -76,3 +76,7 @@ D:\Git\ASP.NET-Project\ECommerce\obj\Debug\ECommerce.csprojAssemblyReference.cac
 D:\Git\ASP.NET-Project\ECommerce\obj\Debug\ECommerce.csproj.CopyComplete
 D:\Git\ASP.NET-Project\ECommerce\obj\Debug\ECommerce.dll
 D:\Git\ASP.NET-Project\ECommerce\obj\Debug\ECommerce.pdb
+D:\Git\ASP.NET-Project\ECommerce\bin\EntityFramework.dll
+D:\Git\ASP.NET-Project\ECommerce\bin\EntityFramework.SqlServer.dll
+D:\Git\ASP.NET-Project\ECommerce\bin\EntityFramework.xml
+D:\Git\ASP.NET-Project\ECommerce\bin\EntityFramework.SqlServer.xml

@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Bought";
+    if (Session["userID"] == null)
+    {
+        Response.Redirect("~/Login/LoginPage");
+    }
+}
+
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+<header>
+    <h1>You successfully bought your item!</h1>
+    <p>
+        <h3>User Email: @Session["Email"].ToString()</h3>
+        <a href="@Url.Action("LogOut", "Login")">LogOut</a>
+    </p>
+</header>
+

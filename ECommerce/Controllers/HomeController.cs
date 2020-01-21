@@ -23,11 +23,6 @@ namespace ECommerce.Controllers
             return View();
         }
 
-        public ActionResult Login()
-        {
-            return View();
-        }
-
         public ActionResult RegisterPage()
         {
             return View();
@@ -44,6 +39,11 @@ namespace ECommerce.Controllers
         {
             ViewBag.Message = "Your contact page.";
 
+            return View();
+        }
+
+        public ActionResult Bought()
+        {
             return View();
         }
     }

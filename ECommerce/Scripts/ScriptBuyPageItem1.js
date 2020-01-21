@@ -4,7 +4,7 @@ ItemBuy.addEventListener("mouseenter", MouseIn)
 ItemBuy.addEventListener("mouseout", MouseOut)
 
 function Buy() {
-    window.location.href = "/Home/Login"
+    window.location.href = "/Home/Bought"
 }
 
 function MouseIn() {
