@@ -1,7 +1,7 @@
 # ASP.NET-Project
 E-Commerce page built with ASP.NET for learning purposes.
 
-##How to run
+## How to run
 1. Clone the repository in your PC.
 2. If not extracted, extract into a folder of your choice.
 3. Open Visual Studio.
@@ -12,7 +12,7 @@ E-Commerce page built with ASP.NET for learning purposes.
 
 - If you don't want to use Visual Studio to open then use ISS solo, you can see [here](https://docs.microsoft.com/en-us/iis/application-frameworks/scenario-build-an-aspnet-website-on-iis/configure-an-asp-net-website-on-iis) how to do it.
 
-##Como rodar
+## Como rodar
 1. Clone o repositório no seu PC.
 2. Se não estiver extraido, extraia em alguma pasta de sua escolha.
 3. Abra o Visual Studio.
