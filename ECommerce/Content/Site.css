@@ -46,6 +46,13 @@ header {
     border-bottom-right-radius: 20px;
     box-shadow: none;
     display: inline-block;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 #InsideItem1 {
     margin-left: 25px;
@@ -60,6 +67,13 @@ header {
     border-bottom-right-radius: 20px;
     box-shadow: none;
     display: inline-block;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 #InsideItem2 {
     margin-left: 25px;

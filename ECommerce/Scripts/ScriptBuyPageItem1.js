@@ -1,14 +1,9 @@
 ﻿var ItemBuy = document.getElementById("BuyButton")
 ItemBuy.addEventListener("click", Buy)
-ItemBuy.addEventListener("mouseenter", MouseIn)
 ItemBuy.addEventListener("mouseout", MouseOut)
 
 function Buy() {
     window.location.href = "/Home/Bought"
-}
-
-function MouseIn() {
-    document.body.style.cursor = 'pointer'
 }
 
 function MouseOut() {

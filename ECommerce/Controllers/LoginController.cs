@@ -38,7 +38,7 @@ namespace ECommerce.Controllers
         {
             int userId = (int) Session["userID"];
             Session.Abandon();
-            return RedirectToAction("LoginPage", "Login");
+            return RedirectToAction("Index", "Home");
         }
 
         public ActionResult AddorEdit(int id = 0)
