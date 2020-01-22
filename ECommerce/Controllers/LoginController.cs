@@ -40,5 +40,31 @@ namespace ECommerce.Controllers
             Session.Abandon();
             return RedirectToAction("LoginPage", "Login");
         }
+
+        public ActionResult AddorEdit(int id = 0)
+        {
+            User user = new User();
+            return View();
+        }
+        [HttpPost]
+        public ActionResult AddorEdit(User user)
+        {
+            using (DBModels db = new DBModels ())
+            {
+                if (db.Users.Any(x => x.Email == user.Email))
+                {
+                    ViewBag.DuplicateMessage = "User with this Email already exists";
+                    return View("AddorEdit", user);
+                }
+                else
+                {
+                    db.Users.Add(user);
+                    db.SaveChanges();
+                }
+            }
+            ModelState.Clear();
+            ViewBag.SuccessMessage = "Registration Successfull.";
+            return View("AddorEdit", new User());
+        }
     }
 }
