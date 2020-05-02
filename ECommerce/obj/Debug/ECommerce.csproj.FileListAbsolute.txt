@@ -51,6 +51,8 @@ D:\Git\ASP.NET-Project\ECommerce\bin\roslyn\vbc.rsp
 D:\Git\ASP.NET-Project\ECommerce\bin\roslyn\VBCSCompiler.exe
 D:\Git\ASP.NET-Project\ECommerce\bin\roslyn\VBCSCompiler.exe.config
 D:\Git\ASP.NET-Project\ECommerce\bin\Antlr3.Runtime.dll
+D:\Git\ASP.NET-Project\ECommerce\bin\EntityFramework.dll
+D:\Git\ASP.NET-Project\ECommerce\bin\EntityFramework.SqlServer.dll
 D:\Git\ASP.NET-Project\ECommerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Git\ASP.NET-Project\ECommerce\bin\Microsoft.Web.Infrastructure.dll
 D:\Git\ASP.NET-Project\ECommerce\bin\Newtonsoft.Json.dll
@@ -62,6 +64,8 @@ D:\Git\ASP.NET-Project\ECommerce\bin\System.Web.WebPages.Deployment.dll
 D:\Git\ASP.NET-Project\ECommerce\bin\System.Web.WebPages.dll
 D:\Git\ASP.NET-Project\ECommerce\bin\System.Web.WebPages.Razor.dll
 D:\Git\ASP.NET-Project\ECommerce\bin\WebGrease.dll
+D:\Git\ASP.NET-Project\ECommerce\bin\EntityFramework.xml
+D:\Git\ASP.NET-Project\ECommerce\bin\EntityFramework.SqlServer.xml
 D:\Git\ASP.NET-Project\ECommerce\bin\System.Web.Helpers.xml
 D:\Git\ASP.NET-Project\ECommerce\bin\System.Web.Mvc.xml
 D:\Git\ASP.NET-Project\ECommerce\bin\System.Web.Optimization.xml
@@ -76,7 +80,3 @@ D:\Git\ASP.NET-Project\ECommerce\obj\Debug\ECommerce.csprojAssemblyReference.cac
 D:\Git\ASP.NET-Project\ECommerce\obj\Debug\ECommerce.csproj.CopyComplete
 D:\Git\ASP.NET-Project\ECommerce\obj\Debug\ECommerce.dll
 D:\Git\ASP.NET-Project\ECommerce\obj\Debug\ECommerce.pdb
-D:\Git\ASP.NET-Project\ECommerce\bin\EntityFramework.dll
-D:\Git\ASP.NET-Project\ECommerce\bin\EntityFramework.SqlServer.dll
-D:\Git\ASP.NET-Project\ECommerce\bin\EntityFramework.xml
-D:\Git\ASP.NET-Project\ECommerce\bin\EntityFramework.SqlServer.xml

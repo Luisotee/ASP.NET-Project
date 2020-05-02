@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+
+<header>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <div id="top">
+        <h1 style="display: inline; text-align: left;">Easy Buy</h1>
+        <div id="Search">
+            <input class="input" placeholder="Search Here" />
+            <button class="search-btn">Search</button>
+        </div>
+        <div id="UserLogin">
+            @*<h3>User Email: @Session["Email"].ToString()</h3>*@
+        </div>
+    </div>
+</header>
+<section class="Middle">
+    <div id="Item1">
+        <img src="~/Models/Note.jpg" alt="Sample Photo" style="width: 200px;" />
+        <div id="InsideItem1">
+            <span>
+                Macbook Pro 
+                <br /> <var>1.200,00 US$</var>
+            </span>
+        </div>
+    </div>
+    <div id="Item2">
+        <img src="~/Models/product07.png" alt="Sample Photo" style="width: 200px;" />
+        <div id="InsideItem2">
+            <span>
+                Galaxy S7 Edge
+                <br /> <var>300,00 US$</var>
+            </span>
+        </div>
+    </div>
+</section>
+<script src="~/Scripts/ScriptHome.js" language="javascript" type="text/javascript"></script>
+
